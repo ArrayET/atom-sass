@@ -1,0 +1,27 @@
+// *** SUB FEATURES PARTIAL ***
+
+#sub-features{
+  width: 100vw;
+  @include basic-flex(center, center);
+
+  #sub-features-content{
+    width: $content-width;
+    @include basic-flex(center, center, column);
+
+    #sub-features-expectations{
+      width: 100%;
+      
+      h2{
+        width: 100%;
+        text-align: left;
+      } //h2
+
+      #expectations-grid{
+
+        div{
+
+        } //div
+      } //expectations-grid
+    } //sub-features-expectations
+  } //sub-features-content
+} //sub-features
